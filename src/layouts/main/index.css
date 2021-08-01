@@ -1,0 +1,143 @@
+.main_nabvar{
+    width: 100%;
+}
+
+.main_nabvar_top{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.main_nabvar_top .logo{
+    position: relative;
+    top: -15px;
+    z-index: -1;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px){
+    .main_nabvar_top{
+        flex-direction: column;
+        height: 110px;
+        padding-left: 30px;
+        padding-top: 10px;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    .logo_container{
+        display: flex;
+        align-items: center;
+    }
+
+    .main_nabvar_top .logo{
+        width: 300px;  
+        top: -11px;
+        margin-left: 15px;
+        
+    }
+  }
+
+.main_nabvar_down{
+    width: 100%;
+    background: black;
+    height: 39px;
+    display: flex;
+    color: white;
+    padding: 13px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_nabvar_down a{
+    margin: 0 30px;
+}
+
+.main_footer{
+    background: black;
+    color: white;
+}
+
+.main_footer_section{
+    display: flex;
+    justify-content: center;
+}
+
+.main_footer_section_item{
+    margin: 40px 80px;
+}
+
+.footer_coopyright{
+    text-align: center;
+    padding: 10px;
+    border-top: 0.75px solid white;
+}
+
+.menu_icon{
+    cursor: pointer;
+    width: 50px;
+}
+
+
+.sidebar{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 1000;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 20px;
+}
+
+.sidebar_elements{
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.close_sidebar{
+    width: 300px !important;
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    color: #5B17AA;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_footer_mobile{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main_footer_mobile_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.icon_btn{
+    margin-left: 20px;
+}
+
+.icon_btn .btn_act{
+    margin-left: 6px;
+    width: 25px;
+}
+
+.nabvar_actions{
+    float: right;
+    display: flex;
+}

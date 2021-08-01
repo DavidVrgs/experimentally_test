@@ -1,0 +1,33 @@
+.input{
+    display: flex;
+}
+
+.input input{
+    display: flex;
+    width: 350px;
+    height: 29px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #6B6B6B;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border: 0px;
+    padding-left: 5px;
+}
+
+.input_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    width: 35px;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px){
+    .input input{
+        width: 75vw;
+    }
+}

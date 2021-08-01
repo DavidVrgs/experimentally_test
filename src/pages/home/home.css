@@ -1,0 +1,38 @@
+.main_sections{
+   margin: 0 auto;
+   padding-top: 50px;
+   width: 90%; 
+
+}
+
+.section_item{
+   display: flex;
+}
+
+.section_item div{
+   margin: 0 15px;
+   width: 100%;
+}
+
+.item_products_found{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   padding-top: 50px;
+   width: 85%;
+}
+
+.item_products_found .product_card{
+   margin: 20px;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px){
+   .section_item{
+      flex-direction: column;
+   }
+
+   .section_item div{
+      margin: 0;
+   }
+   
+}
